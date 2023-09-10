@@ -1,0 +1,15 @@
+$lightGreen: #b9e7e7;
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+    padding: 20px;
+    background-color: $lightGreen;
+    font-size: 12px;
+    border-radius: 6px;
+    img{
+        height: 50px;
+    }
+}

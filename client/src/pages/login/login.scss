@@ -1,0 +1,54 @@
+$lightGreen: #b9e7e7;
+
+.auth{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: $lightGreen;
+}
+
+.auth__head{
+    font-size: 20px;
+    color: teal;
+    margin-bottom: 20px;
+}
+
+.auth__form{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    gap: 20px;
+    border-radius: 6px;
+    background-color: white;
+
+    input{
+        padding: 10px;
+        border: none;
+        border-bottom: 1px solid gray;
+    }
+    
+    button{
+        padding: 10px;
+        border: none;
+        background-color: teal;
+        color: white;
+        cursor: pointer;
+        
+    }
+
+    p{
+        font-size: 12px;
+        text-align: center;
+        color: rgb(207, 23, 23);
+
+    }
+
+    span{
+        font-size: 12px;
+        text-align: center;
+    }
+}
+
